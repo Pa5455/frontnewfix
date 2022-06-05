@@ -2,11 +2,11 @@ import axios from "axios";
 import {user} from "../stores";
 
 export class DoseService {
-   //baseUrl = "";
+   baseUrl = "https://stormy-falls-57017.herokuapp.com";
 
   constructor(baseUrl) {
     console.log("HELLO");
-    this.baseUrl = "http://Patricks-MacBook-Pro.local:4000";
+    this.baseUrl = baseUrl;
     console.log(this.baseUrl);
     const doseCredentials = localStorage.dose;
     if (doseCredentials) {
