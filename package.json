@@ -2,7 +2,6 @@
   "name": "donation-svelte",
   "version": "0.0.0",
   "scripts": {
-    "start": "node src/main.js",
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
